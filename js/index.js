@@ -41,18 +41,18 @@ window.addEventListener('DOMContentLoaded', () => {
       a: 3,
     },
     {
-      q: 'What is the capital of Australia',
+      q: 'What is the capital of Australia?',
       o: ['Sydney', 'Canberra', 'Melbourne', 'Perth'],
       a: 1,
     },
     // Step-3 "Add 2 more questions to the app (each question must have 4 options)"
     {
-      q: "What is the national animal of Australia",
+      q: "What is the national animal of Australia?",
       o: ["Koala", "Lion", "Kangaroo", "Tiger"],
       a: 2,
     },
     {
-      q: "Who is the 30th prime minister of Australia",
+      q: "Who is the 30th prime minister of Australia?",
       o: ["Scott Morrison", "Malcolm Turnbull", "Tony Abbott", "Julia Gillard"],
       a: 0,
     },
