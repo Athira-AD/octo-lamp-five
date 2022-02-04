@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
           sec--;
         if (sec == -2) {
               clearInterval(time);
-              alert("Your time is up" + "Please Reload the Quiz");
+              alert("Your time is up. Please Reload the Quiz");
               alert("Click OK to start again.");
               location.reload();
           }
