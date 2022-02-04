@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
     },
     {
       q: "Who is the 30th prime minister of Australia",
-      o: ["Scott Morrison", "	Malcolm Turnbull", "	Tony Abbott", "	Julia Gillard"],
+      o: ["Scott Morrison", "Malcolm Turnbull", "Tony Abbott", "	Julia Gillard"],
       a: 0,
     },
     // Step-3 "End"
@@ -119,7 +119,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (quizItem.a == i) {
           //change background color of li element here
           // document.getElementById(`li_${index}_${i}`).style.background = "green"; 
-          liElement.style.background = "green";
+          liElement.style.background = "#32cd32";
 
         if (radioElement.checked) {
           // code for task 2 goes here
