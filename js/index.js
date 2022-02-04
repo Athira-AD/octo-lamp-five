@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
     },
     {
       q: "Who is the 30th prime minister of Australia",
-      o: ["Scott Morrison", "Malcolm Turnbull", "Tony Abbott", "	Julia Gillard"],
+      o: ["Scott Morrison", "Malcolm Turnbull", "Tony Abbott", "Julia Gillard"],
       a: 0,
     },
     // Step-3 "End"
