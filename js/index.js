@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
           sec--;
         if (sec == -2) {
               clearInterval(time);
-              alert("Your time is up. Please Reload the Quiz");
+              alert("Your time is up." + "Please Reload the Quiz");
               alert("Click OK to start again.");
               location.reload();
           }
@@ -130,7 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     });
     // put the score on the page after score is calculated
-    document.getElementById("score").innerHTML = `Your score is ${score} of out 5!`; 
+    document.getElementById("score").innerHTML = alert(`Your score is ${score} of out 5!`); 
   };
     // call the calculate score function 
     calculateScore(); 
